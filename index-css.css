@@ -1,0 +1,14 @@
+/* index-css.css */
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    margin: 0;
+    text-align: center; /* 关键：让内部的 inline-block 元素居中 */
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #003366;
+    display: inline-block;
+    transition: transform 0.8s ease-in-out; /* 增加平滑过渡 */
+}
